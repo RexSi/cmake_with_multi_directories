@@ -16,3 +16,10 @@ directory structure
         ├── main.cpp
         └── test.cpp
 ```
+
+How to build
+==
+```bash
+cmake -S . -B build
+cmake --build build
+```
